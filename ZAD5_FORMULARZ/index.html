@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<!-- Numer indeksu: 69486 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Aidana Abylkasymova</title>
+    <link id="themeStylesheet" rel="stylesheet" href="red.css">
+</head>
+<body>
+
+    <header>
+        <img src="1.jpg" alt="Zdjęcie profilowe Aidana Abylkasymova" width="160" height="160">
+        <h1>Aidana Abylkasymova</h1>
+        <p>Studentka i początkująca programistka</p>
+        <p>Numer indeksu: 69486</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <h2>Interakcja JavaScript</h2>
+            <button id="themeButton" type="button">Zmień motyw na zielony</button>
+            <button id="toggleSkillsButton" type="button">Ukryj sekcję Umiejętności</button>
+        </section>
+
+        <section>
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:aabylka1@stu.vistula.edu.pl">aabylka1@stu.vistula.edu.pl</a></p>
+            <p>Telefon: <a href="tel:+48575644808">+48 575 644 808</a></p>
+            <p>Miasto: Warszawa</p>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentką zainteresowaną programowaniem i nowymi technologiami. Rozwijam swoje umiejętności w zakresie tworzenia stron internetowych oraz programowania. Lubię uczyć się nowych narzędzi i pracować projektowo.</p>
+        </section>
+
+        <section id="skillsSection">
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Podstawy pracy projektowej</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Project Manager</h3>
+                <p><strong>Praca zdalna</strong></p>
+                <p>Koordynowanie zadań projektowych, organizacja pracy zespołu oraz wspieranie realizacji projektów w środowisku zdalnym.</p>
+            </article>
+            <article>
+                <h3>Mentee - Google Mentorship Program</h3>
+                <p><strong>Google</strong> (2024)</p>
+                <p>Udział w programie mentoringowym i rozwój kompetencji zawodowych.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p><strong>42 Warsaw</strong></p>
+            <p>2024 - 2025 | Studentka</p>
+            <p><strong>Vistula University</strong></p>
+            <p>Studentka</p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul>
+                <li><strong>Strony internetowe:</strong> Tworzenie prostych projektów z użyciem HTML, CSS i JavaScript.</li>
+                <li><strong>Ćwiczenia w Pythonie:</strong> Rozwiązywanie zadań programistycznych i rozwijanie logicznego myślenia.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formularz kontaktowy</h2>
+
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="firstName">Imię</label>
+                    <input type="text" id="firstName" name="firstName">
+                    <p class="error-message" id="firstNameError"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Nazwisko</label>
+                    <input type="text" id="lastName" name="lastName">
+                    <p class="error-message" id="lastNameError"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                    <p class="error-message" id="emailError"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Wiadomość</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    <p class="error-message" id="messageError"></p>
+                </div>
+
+                <button type="submit" class="submit-button">Wyślij</button>
+                <p id="successMessage" class="success-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aidana Abylkasymova</p>
+        <p>Numer indeksu: 69486</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
