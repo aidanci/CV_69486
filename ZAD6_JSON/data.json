@@ -1,0 +1,24 @@
+{
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Zarządzanie projektami",
+    "Praca zespołowa"
+  ],
+  "projects": [
+    {
+      "title": "Strona CV",
+      "description": "Strona internetowa CV wykonana z użyciem HTML, CSS i JavaScript."
+    },
+    {
+      "title": "Finance Tracker",
+      "description": "Aplikacja webowa do rejestrowania, kategoryzacji, analizy i wizualizacji danych finansowych użytkownika."
+    },
+    {
+      "title": "Formularz kontaktowy",
+      "description": "Formularz z walidacją pól wymaganych, adresu e-mail oraz imienia i nazwiska."
+    }
+  ]
+}
